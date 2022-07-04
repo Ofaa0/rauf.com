@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Smooch&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color:black;
+    position:  fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    padding: 10px 200px;
+}
+.H-Name{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+.navegation a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 400;
+    padding: 0 20px;
+}
+.navegation a:hover{
+    color: aqua;
+}
+section{
+    padding: 100px 200px;
+}
+.defination{
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    background-image: url(12.jpg);
+    background-size: cover;
+}
+.defination .par h2{
+    color: white;
+}
+.defination .par h2 .sp1 {
+    color: aqua;
+    font-size: 1.6em;
+    margin-top: 10px;
+}
+.defination .par h3{
+    color: white;
+    font-size: 1.1;
+    font-size: 600;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.view-bot{
+    font-size: 1.5em;
+    text-decoration: none;
+    background-color: rgb(0, 124, 124);
+    color: white;
+    border-radius: 15px;
+    padding: 0.9375em 2.1375em;
+    padding: 5px;
+    margin-bottom: 20px;
+    transition: 0.5s ease;
+}
+.view-bot:hover{
+    background-color:aqua;
+    transform:scale(1.1);
+}
+.So-Icons{
+    padding-top:20px ;
+}
+.So-Icons a{
+    border-radius: 15px;
+    color:white;
+    padding: 20px;
+    margin-left: 6px;
+    font-size: 2em;
+    font-weight: 400;
+}
+.s-title{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 800;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.cards{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(20%,20%,20%,40%);
+    width: 21.25em;
+    margin-block-start: 50px;
+    transition: 0.5s ease;
+}
+.cards:hover{
+    transform: scale(1.1);
+}
+.icons{
+    text-align: center;
+    font-size: 8em;
+}
+.info-name{
+    text-align: center;
+}
+.info-det{
+    text-align: center;
+    font-size: 1.4em;
+    padding-top: 5px;
+
+}
+.projects{
+    background-image: url(13.jpg);
+    background-size: cover;
+}
+.projects .contents{
+    margin-top: 30px;
+}
+.p-card{
+    background-color: white;
+    border: 1px double white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.p-card:hover{
+    transform: scale(1.1);
+}
+.p-card:hover{
+    opacity: 0.6;
+}
+.p-image img{
+    width: 100%;
+}
+.info{
+    padding: 16px;
+}
+.categ{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+.p-title{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800px;
+    font-size: 1.2em;
+}
+.p-title span{
+    font-size: 1em;
+}
+.Goto{
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+footer p{
+    color: white;
+    font-size: 1.5em;
+    padding: 30px;
+}
+footer p span{
+    color:aqua;
+}
